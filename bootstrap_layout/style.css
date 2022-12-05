@@ -1,0 +1,25 @@
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+.aside{
+    height: 100px;
+    background-color: blueviolet;
+    width: 100%;
+    float: left;
+    
+}
+.section{
+    height: 100px;
+    background-color: lightcoral;
+    width: 100%;
+    float: left;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: lightgreen;
+    float: left;
+}
