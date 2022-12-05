@@ -1,0 +1,24 @@
+-  What is Responsive Design?
+
+Design and development should respond to the user's behavior and environment based on screen size, platefrom orientation
+
+
+- What is box model ?
+
+When we talking about design and layout. (margin, border, padding and actual content)
+
+- Bootstrap Container layout
+
+- Basic layout element in bootstrap
+- used to pad the content inside of them
+
+    Two container class available
+	1) .container
+	2) .container-fluid (entire width of the viewport width always- 100%)
+
+- bootstrap Grid System
+
+	Bootstrap grid system allow up to 12 columns across the page.
+	row
+	columns
+	support various screen resolution like xs,sm,md,lg,xl,xxl

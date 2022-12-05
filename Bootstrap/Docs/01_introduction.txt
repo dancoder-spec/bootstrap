@@ -1,0 +1,21 @@
+Bootsrap Develop by : @twitter- 2011
+
+Total Number of release : 20+ (include 3 major chaneges re-writes (v2,v3, and v4)
+
+Current vesrsion : v5
+- Alpha version (beta)  : aug 2020
+- stable version : may 2021
+
+
+What's New in Bootstrap 5
+
+- Major re-write of the entire framework
+- Brand new look and feel
+- Brand new logo (last logo dull)
+- New typography (font)
+- No jquery required anymore
+- Dropping Support for Internet Explorer (v5)
+- New theme color 
+- Enhanced Grid (Multiple changes including addition of xxl)
+- offcanvas
+- own icon 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JS Separate file -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    .container
+    {
+        border: 2px solid goldenrod;
+    }
+    .row
+    {
+        min-height: 160px;
+    }
+    .box1
+    {
+        background-color: lightblue;
+    }
+    .box2
+    {
+        background-color: lightcoral;
+    }
+    .box3
+    {
+        background-color: lightgreen;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row flex-row">
+
+            <div class="col-2 box1">A</div>
+            <div class="col-2 box2">B</div>
+            <div class="col-2 box3">C</div>
+            <div class="col-2 box1">D</div>
+            <div class="col-2 box2">E</div>
+            <div class="col-2 box3">F</div>
+
+        </div>
+    </div>
+
+
+    <div class="container mt-5" >
+        <div class="row flex-row flex-row-reverse">
+
+            <div class="col-2 box1">A</div>
+            <div class="col-2 box2">B</div>
+            <div class="col-2 box3">C</div>
+            <div class="col-2 box1">D</div>
+            <div class="col-2 box2">E</div>
+            <div class="col-2 box3">F</div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5" >
+        <div class="row flex-row  flex-wrap   ">
+
+            <div class="col-2 box1">A</div>
+            <div class="col-2 box2">B</div>
+            <div class="col-2 box3">C</div>
+            <div class="col-2 box1">D</div>
+            <div class="col-2 box2">E</div>
+            <div class="col-2 box3">F</div>
+            <div class="col-2 box3">F</div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5" >
+        <div class="row flex-row  flex-wrap-reverse   ">
+
+            <div class="col-2 box1">A</div>
+            <div class="col-2 box2">B</div>
+            <div class="col-2 box3">C</div>
+            <div class="col-2 box1">D</div>
+            <div class="col-2 box2">E</div>
+            <div class="col-2 box3">F</div>
+            <div class="col-2 box3">F</div>
+
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col  box1 ">A</div>
+            <div class="col  box2 flex-fill">B</div>
+            <div class="col  box3">C</div>
+            <div class="col  box1">D</div>
+        </div>
+    </div>
+
+    
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col  box1 ">A</div>
+            <div class="col  box2 ">B</div>
+            <div class="col  box3 flex-fill">C</div>
+            <div class="col  box1">D</div>
+            <div class="col  box2">D</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

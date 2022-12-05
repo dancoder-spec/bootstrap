@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JS Separate file -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <style>
+        .container
+        {
+            border: 3px solid green;
+        }
+        .row
+        {
+            border: 3px solid goldenrod;
+        }
+       
+        .box1
+        {
+            height: 100px;
+        }
+        .box2
+        {
+            height: 150 px;
+        }
+        .box3
+        {
+            border: 2px solid green;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 box1 overflow-scroll">
+                <h2>DivA</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel dolorem sunt dignissimos temporibus labore eaque ducimus, quas dolores! Sint quia placeat illum atque labore ullam asperiores id pariatur mollitia cum.
+            </div>
+            <div class="col-md-3 box2 overflow-hidden">
+                <h2>DivB</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel dolorem sunt dignissimos temporibus labore eaque ducimus, quas dolores! Sint quia placeat illum atque labore ullam asperiores id pariatur mollitia cum.
+            </div>
+            <div class="col-md-3 box3 overflow-visible">
+                <h2>Divc</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel dolorem sunt dignissimos temporibus labore eaque ducimus, quas dolores! Sint quia placeat illum atque labore ullam asperiores id pariatur mollitia cum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure non quia incidunt at quasi neque asperiores amet. Distinctio accusantium quia deserunt. Nesciunt dolorem ipsam iste mollitia molestias pariatur optio odio?
+            </div>
+            <div class="col-md-3 box3 overflow-auto">
+                <h2>Divc</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel dolorem sunt dignissimos temporibus labore eaque ducimus, quas dolores! Sint quia placeat illum atque labore ullam asperiores id pariatur mollitia cum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure non quia incidunt at quasi neque asperiores amet. Distinctio accusantium quia deserunt. Nesciunt dolorem ipsam iste mollitia molestias pariatur optio odio?
+            </div>
+        </div>
+    </div>
+</body>
+</html>
